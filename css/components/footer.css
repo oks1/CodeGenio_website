@@ -1,0 +1,20 @@
+.footer-codegenio {
+  background-color: var(--dark-neutral);
+  color: var(--light-neutral);
+}
+
+.footer-codegenio .footer-logo {
+  font-family: 'Comfortaa', cursive;
+  color: var(--complimentary-color);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.footer-codegenio ul.social li a {
+  color: var(--light-neutral);
+}
+
+.footer-codegenio h5,
+.footer-codegenio p {
+  color: var(--light-neutral);
+}

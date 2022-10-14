@@ -1,0 +1,8 @@
+.bg-green-gradient {
+  background: linear-gradient(#dcffe1, #fbfffb);
+  /* opacity: .2; */
+}
+
+.background-light {
+  background-color: var(--light-neutral);
+}

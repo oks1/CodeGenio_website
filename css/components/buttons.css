@@ -1,0 +1,73 @@
+/* MAIN BUTTON */
+.button-main {
+  text-align: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 21.35%, rgba(255, 255, 255, 0.026) 47.92%),
+    var(--bold-main);
+  color: var(--dark-neutral);
+  font-weight: 500;
+  border-radius: 4px;
+  margin: 0;
+  display: inline-block;
+  padding: 4px 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  transition: all 0.2s ease-in;
+}
+
+.button-main:hover {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 21.35%, rgba(255, 255, 255, 0.026) 47.92%),
+    #5bf277;
+  color: inherit;
+}
+
+/* SECONDARY BUTTON */
+.button-secondary {
+  text-align: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -8.06%, rgba(221, 221, 221, 0.2) 22.33%, rgba(0, 0, 0, 0) 100%),
+    var(--complimentary-color);
+  color: var(--light-neutral);
+  font-weight: 500;
+  border-radius: 4px;
+  margin: 0;
+  display: inline-block;
+  padding: 4px 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in;
+}
+
+.button-secondary:hover {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -8.06%, rgba(221, 221, 221, 0.2) 22.33%, rgba(0, 0, 0, 0) 100%),
+    #5f7ebf;
+  color: var(--light-neutral);
+}
+
+/* NEUTRAL BUTTON */
+.button-neutral {
+  text-align: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -8.06%, rgba(221, 221, 221, 0.2) 22.33%, rgba(0, 0, 0, 0) 100%),
+    white;
+  color: var(--nav-link);
+  font-weight: 500;
+  border-radius: 4px;
+  margin: 0;
+  display: inline-block;
+  padding: 4px 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in;
+}
+
+.button-neutral:hover {
+  color: var(--dark-neutral);
+}
+
+/* HELP BUTTON */
+.help {
+  position: fixed;
+  bottom: 120px;
+  right: 10px;
+  z-index: 1;
+  text-align: center;
+}

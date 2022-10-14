@@ -1,0 +1,13 @@
+.big-dot {
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  /* background-color: var(--complimentary-color); */
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%),
+    var(--complimentary-color);
+  opacity: .8;
+  top: 338px;
+  right: -171px;
+  position: absolute;
+  z-index: 0;
+}

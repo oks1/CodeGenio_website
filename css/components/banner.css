@@ -1,0 +1,41 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+}
+
+.banner .container {
+  height: 100%;
+}
+
+.banner h1 {
+  margin: 0;
+  padding: 50px 0;
+  color: var(--light-neutral);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: Comfortaa, sans-serif;
+}
+
+.banner p {
+  color: var(--light-neutral);
+  font-size: 1.2em;
+}
+
+.banner h1 span {
+  color: var(--bold-main)
+}
+
+.banner ul {
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  color: var(--light-neutral);
+  /* opacity: .8; */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  padding-left: 0;
+}
+
+.banner li {
+  list-style-type: none;
+}

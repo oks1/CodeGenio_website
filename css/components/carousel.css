@@ -1,0 +1,15 @@
+.carousel-codegenio .carousel-inner {
+  background-color: var(--light-neutral);
+  padding: 50px;
+  height: 160px;
+}
+
+.carousel-codegenio h5 {
+  font-weight: 400;
+  color: var(--nav-link);
+}
+
+.carousel-codegenio p {
+  font-weight: 300;
+  color: var(--nav-link);
+}

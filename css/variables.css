@@ -1,0 +1,11 @@
+:root {
+  /* MAIN COLORS */
+  --dark-neutral: #223843;
+  --light-neutral: #EFF1F3;
+  --bold-main: #61FF7E;
+  --complimentary-color: #6987C9;
+  --accent-color: #E34A6F;
+
+  /* MAIN COLOR VARIANTS */
+  --nav-link: #6f8590;
+}

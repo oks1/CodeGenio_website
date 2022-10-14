@@ -1,0 +1,19 @@
+.link-icon {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: white;
+  border: 10px solid #fff;
+  margin: 24px auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+
+.link-icon i {
+  position: absolute;
+  top: -12px;
+  left: -2px;
+  color: var(--dark-neutral);
+  font-size: 40px;
+}

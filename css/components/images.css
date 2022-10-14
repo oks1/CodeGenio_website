@@ -1,0 +1,9 @@
+.img-round {
+  min-width: 100px;
+  height: 100px;
+  max-width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 8px solid var(--bold-main);
+}

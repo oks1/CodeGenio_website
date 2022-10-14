@@ -1,0 +1,20 @@
+.pos-relative {
+  position: relative;
+  z-index: 1;
+}
+
+.absolute-top-left {
+  position: absolute;
+  left: -28px;
+  top: -28px;
+}
+
+.absolute-bottom-right {
+  position: absolute;
+  right: -28px;
+  bottom: -28px;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
